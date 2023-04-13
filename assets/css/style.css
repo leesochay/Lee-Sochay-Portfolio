@@ -272,3 +272,56 @@ article ul {
 	padding: 6px 0;
 }
 
+/* Flexbox layout and styling for each section in the contact section */
+
+.contact {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+	background-image: url("../images/SuperiorRocks.jpg");
+}
+
+.contact h2 {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.contact p {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.contactinfo h3, address{
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 6px 0;
+}
+
+/* Styling for the Footer section */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the author text in the footer */
+#author {
+    font-size: 20px;
+	font-weight: bold;
+}
