@@ -199,3 +199,76 @@ article ul {
 	font-size: 16px;
 	padding: 6px 0;
 }
+
+/* Styling for the elements in the Header of the Projects section */
+
+.projects {
+	padding: 100px;
+	background: #DBE6EB;
+}
+
+.projects h2 {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.projects p {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+/* Flexbox layout and styling for each section in the Project section */
+
+.currentprojects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* Sizing the Flexboxes in the Project section */
+
+.firstone {
+	flex: 3 0 300px;
+}
+
+.next {
+	flex: 0 0 200px;
+}
+
+/* Styling for the images in the Project section */
+
+.challenge img {
+	width: 300px;
+    height: 200px;
+    object-fit: contain;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.challenge figcaption {
+	font-family: 'Lucida Console', 'Arial', 'Ebrima';
+	text-align: center;
+	margin: 0 10px;
+}
+
+
+
+.currentprojects h3{
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 6px 0;
+}
+
