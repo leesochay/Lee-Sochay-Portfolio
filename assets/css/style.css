@@ -9,3 +9,63 @@
     margin: 0;
 }
 
+/* Set the background color for the webpage */
+body {
+    background: #E7EEF3;
+}
+
+/* Format the webpage header */
+header {
+    display: flex;
+	padding: 20px;
+	text-align: center;
+	justify-content: space-between;
+	background-color: var(--art-bg-color);
+    color: #ffffff;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+}
+
+/* Format the headshot image in the header */
+.headshot img {
+	border-radius: 50%;
+	height: 100px;
+}
+
+/* Format the caption for the headshot image in the header */
+figcaption {
+	font-family: 'Lucida Console', 'Arial', 'Ebrima';
+	text-align: center;
+	margin: 0 10px;
+}
+
+/* Format the name in the header */
+header p {
+	display: inline-block;
+	margin: 40px 10px;
+	font-size: 30px;
+	float: left;
+}
+
+/* Format the navigation elementsin the header */
+
+nav {
+display: flex;
+justify-content: center;
+}
+
+nav a {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+	margin: 40px 10px;
+}	
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
