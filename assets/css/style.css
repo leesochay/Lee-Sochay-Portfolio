@@ -351,3 +351,46 @@ footer {
 img[src*="Screenshot"] {
  border: black 5px solid;
 }
+
+/* Responsive styling in the header and Introduction sections based on a max screen width of 768px  */
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+	  }
+	nav a {
+		margin: 5px 0;
+	  }
+	.salutation {
+		flex-direction: column;
+	  }
+	
+	.rocks {
+	height: 500px;
+	}  
+	.rocks li {
+	display: none;
+	}	
+}
+
+/* Responsive styling in the About Me section based on a max screen width of 768px  */
+@media screen and (max-width: 768px) {
+	.worked li {
+	display: none;
+	}
+	.about {
+		padding-top: 25px;
+	}  
+}
+
+/* Responsive styling in the Header section based on a max screen width of 576px  */
+@media screen and (max-width: 576px) {
+	  header p {
+		font-size: 24px;
+	  }
+	  nav a {
+		font-size: 24px;
+	  }
+	  figcaption {
+		font-size: 12px;
+	}
+}
