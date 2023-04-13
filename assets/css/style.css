@@ -325,3 +325,29 @@ footer {
     font-size: 20px;
 	font-weight: bold;
 }
+
+/* Place a red border around an image in the Projects section upon hover */
+
+.challenge img:hover {
+	border: red 5px solid;
+}
+
+/* Inserting a message upon hovering over the flexbox headings in the Projects section */
+
+.next h3[data-secret]:hover::after{
+	content: attr(data-secret);
+	margin: 30px;
+	color: red;
+}
+
+.firstone h3[data-secret]:hover::after{
+	content: attr(data-secret);
+	margin: 30px;
+	color: red;
+}
+
+/* This will place a black border around any image with the text "Screenshot"in the name  */
+
+img[src*="Screenshot"] {
+ border: black 5px solid;
+}
