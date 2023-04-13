@@ -69,3 +69,63 @@ a:visited {
   color: #ffffff;
 }
 
+/* Main content width set at 100% */
+
+main {
+    width: 100%;
+}
+
+/* Flexbox layout for the Introduction section of the main content */
+.rocks {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+	background-image: url("../images/SuperiorRocks.jpg");
+}
+
+/* Flexbox layout for the Introduction salutation */
+
+.salutation {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+/* Styling for the elements in the salutation */
+
+.salutation h1{ 
+  font-family: 'Arial', 'Ebrima', 'Lucida Console';
+  color: #1D4154;
+  font-size: 84px;
+  text-align: center;
+ }
+  
+.salutation p {
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 84px;
+	font-weight: bold;
+	text-align: center
+}
+
+/* Styling for the elements in the Intrduction text */
+
+.rocks ul {
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+    font-size: 24px;
+	font-weight: bold;
+	list-style-type: none;
+	color: #1D4154;
+}
+
+.rocks li {
+	text-align: center;
+	margin: 5px;
+}
+
+
