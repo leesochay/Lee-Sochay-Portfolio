@@ -24,7 +24,7 @@ By creating the HTML and CSS as described, the portfolio demonstrates instances 
 
 ![Lee Sochay Portfolio page screenshot](assets/images/LeeSochayPortfolioScreenshot.jpg)
 
-The finished project page can be viewed at [leesochay.github.io/Horiseon-Code-Refractor-Challenge](https://leesochay.github.io/Horiseon-Code-Refractor-Challenge/).
+The finished project page can be viewed at [leesochay.github.io/Lee-Sochay-Portfolio](https://leesochay.github.io/Lee-Sochay-Portfolio/).
 
 ## License
 
