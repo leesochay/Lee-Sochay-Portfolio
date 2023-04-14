@@ -2,27 +2,21 @@
 
 ## Description
 
-This challenge started from scratch with the development of a professional portfolio utilizing HTML and CSS. The focus for this week was to utilize advanced CSS, specifically flexbox, media queries, and CSS variables to create an interactive and responsive portfolio webpage. The general layout includes sections for the header, introduction/salutation, about me (education, experience, professional organizations, publications, and skills), projects, and contact information. To make these sections, flexbox was used to provide the containers for positioning and styling. Media Queries were used to provide responsiveness based on the screen width. And finally, CSS variable(s) were used to provide a color style that can be used in areas within the CSS file.
+This challenge started from scratch with the development of a professional portfolio utilizing HTML and CSS.
+The focus for this week was to utilize advanced CSS, specifically flexbox, media queries, and CSS variables to create an interactive and responsive portfolio webpage.
+The general layout includes sections for the header, introduction/salutation, about me (education, experience, professional organizations, publications, and skills),
+projects, and contact information.
+To make these sections, flexbox was used to provide the containers for positioning and styling.
+Media Queries were used to provide responsiveness based on the screen width.
+And finally, CSS variable(s) were used to provide a color style that can be used in areas within the CSS file.
+
 This is a beginning effort to build a professional portfolio to satisfy the acceptance criteria based on the User Story.
-User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+
+Acceptance Criteria includes the presentation of the developer's name, a recent photo, and links to sections about them, their work, and how to contact them.
+The navigation will link to the apprpriate corresponding sections.
+In the projects section, there are titled images that link to the project page.
+The first project is sized larger than the other projects in the work section.
+Lastly, there are responsive layout design techniques to present the inormation adapting to the users screen size.
 
 ## Usage
 
